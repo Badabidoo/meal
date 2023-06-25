@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Recipe</title>
+</head>
+
+<body>
+    <div class="mobile-container">
+        <header>
+            <input type="text" placeholder="Koshari" id="search-term">
+            <button id="search"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </header>
+        <div class="fav-container">
+            <h3>Favourite Meals</h3>
+            <ul class="fav-meals" id="fav-meals">
+                <!-- 
+                    <li><img src="https://www.themealdb.com/images/media/meals/g046bb1663960946.jpg"
+                        alt=""><span>Sushi</span></li> -->
+        </div>
+        <div class="meals" id="meals"></div>
+
+        <div class="popup-container hidden" id="meal-popup">
+            <div class="popup">
+                <button class="close-popup" id="close-popup">
+                    <i class="fas fa-times"></i>
+                </button>
+                <div class="meal-info" id="meal-info">
+                    <!--
+                        <h1>meal title</h1>
+                    <img src="" alt="">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, recusandae. Iure porro,
+                        incidunt
+                        saepe reprehenderit optio consequuntur, nesciunt modi asperiores neque rem quisquam sunt
+                        quia
+                        sit
+                        quaerat quas? Minima, in!
+                    </p>
+                    <ul>
+                        <li>ing 1 \ measure</li>
+                        <li>ing 2 \ measure</li>
+                        <li>ing 3 \ measure</li>
+                    </ul>-->
+                </div>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+</body>
+
+</html>
